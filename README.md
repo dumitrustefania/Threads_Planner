@@ -78,19 +78,6 @@ Pentru a testa biblioteca folosind testele prezente in fisierul '_test', trebuie
 rulat 'make -f Makefile.checker'. Daca dorim sa rulam doar testul cu numarul
 k, trebuie rulat 'LD_LIBRARY_PATH=. ./_test/run_test k'.
 
-## Feedback
-
-Mi s-a parut o dema destul de dificila, principala dificultate pentru mine venind odata
-cu necesitatea folosirii obiectelor de sincronizare. Am incercat la inceput si cu mutex,
-dar am renuntat apoi si am trecut la semafoare. Dupa foarte multe incercari nereusite,
-si in incercarea de a intelege ce se intampla in teste cu ajutorul multor printf-uri,
-am reusit sa gasesc o configuratie a semafoarelor care sa mearga pe majoritatea testelor.
-
-Cred ca e un mare dezavantaj pentru noi faptul ca SO a fost primul contact cu threadurile
-si mecanismele de sincronizare. Colegii nostri pana acum aveau un semestru intreg de
-experienta cu APD, si cred ca noi am fost tratati ca si cum l-am fi avut de asemenea,
-mai ales in cadrul acestei teme.
-
 ## Resurse
 * https://ocw.cs.pub.ro/courses/so/teme/tema-4#round_robin_cu_prioritati
 * https://ocw.cs.pub.ro/courses/so/cursuri/curs-04
